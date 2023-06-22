@@ -209,6 +209,7 @@ body {
 .menu-container {
     margin-right: 76px;
     gap: 40px;
+    display: flex;
 }
 .address-container {
     display: flex;
