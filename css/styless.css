@@ -1,0 +1,190 @@
+:root {
+    --primary-font: "Roboto",
+        sans-serif;
+    --primary-color: #434455;
+    --primary-background-color: #FFFFFF;
+    --logo-first-color: #4d5ae5;
+    --logo-second-color: #2e2f42;
+    --address-color: #434455;
+    --section-background-color: #2e2f42;
+    --footer-color: #F4F4FD;
+    --body-color: #434455;
+        --fist-logo-color: #4d5ae5;
+        --second-logo-color: #2e2f42;
+        --address-color: #434455;
+        --button-collor: #4d5ae5;
+        --button-background-color: #F4F4FD;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+    color: var(--body-color);
+    }
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800; 
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-first-color);
+}
+.link {
+    text-decoration: none;
+
+}
+.header-second-logo {
+    color: var(--logo-second-color);
+}
+.header-bar {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--logo-second-color);
+}
+.link:hover,
+.link:focus {
+    color: #404bbf;
+}
+.header-address {
+    font-style: normal;
+}
+.header-address-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-color);
+
+}
+.header-span-logo {
+    color: var(--second-logo-color);
+    color: #f4f4fd;
+}
+.list {
+    list-style: none;
+}
+.hero-section {
+    background-color: var(--section-background-color); 
+}
+.hero-header {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.bttn-hero {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.bttn-hero:hover,
+.bttn-hero:focus {
+    background-color: #404BBF;
+}
+.features-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--logo-second-color);
+}
+.features-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+.page-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--logo-second-color);
+}
+.team-section {
+    background-color: #F4F4FD;
+}
+.team-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--logo-second-color);
+}
+.personal-item {
+    background-color: #FFFFFF;
+}
+.name-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--logo-second-color);
+}
+.work-position {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+.footer-options {
+    background-color: var(--section-background-color)
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-first-color);
+}
+.logo-item {
+    color: #f4f4fd 
+}
+.footer-text {
+    line-height: 1.5;
+    color: var(--footer-color);
+    letter-spacing: 0.02em;
+}
+.footer-item {
+    background-color: var(--second-logo-color);
+}
+.bttn-all:hover,
+.bttn-all:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.image-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-logo-color);
+}
+.image-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-color);
+}
+.bttn-all {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--button-collor);
+    background-color: var(--button-background-color);
+}
