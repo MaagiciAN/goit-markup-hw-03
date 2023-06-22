@@ -124,6 +124,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--logo-second-color);
+    margin-bottom: 72px;
 }
 .team-section {
     background-color: #F4F4FD;
@@ -250,6 +251,15 @@ img {
     gap: 24px;
 }
 .features-item {
-    flex-basis: calc((100% - 3 * 24px);
+    flex-basis: calc((100% - 3 * 24px));
 }
-      
+.doing-section {
+    padding-bottom: 120px;
+}
+.doing-container {
+    display: flex;
+    gap: 24px;
+}
+.doing-item {
+    width: calc((100% - 48px) / 3);
+}
