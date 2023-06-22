@@ -29,6 +29,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-first-color);
+    margin-right: 76px;
 }
 .link {
     text-decoration: none;
@@ -43,6 +44,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--logo-second-color);
+    padding: 24px 0;
 }
 .link:hover,
 .link:focus {
@@ -187,4 +189,31 @@ body {
     letter-spacing: 0.04em;
     color: var(--button-collor);
     background-color: var(--button-background-color);
+}
+.header-section {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+    display: flex;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+.menu-container {
+    margin-right: 76px;
+    gap: 40px;
+}
+.address-container {
+    display: flex;
+    gap: 40px;
+}
+img {
+    display: block;
 }
