@@ -196,6 +196,10 @@ body {
     color: #FFFFFF;
     background-color: #404BBF;
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 .image-header {
     font-weight: 500;
@@ -203,6 +207,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--second-logo-color);
+    margin-bottom: 8px;
 }
 .image-text {
     font-size: 16px;
@@ -285,5 +290,26 @@ img {
 }
 .personal-container {
     padding: 32px 16px;
-
+}
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+.portfolio-types {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    width: calc((100% - 48px) / 3);
+}
+.portfolio-item {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
